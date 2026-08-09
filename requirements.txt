@@ -1,0 +1,10 @@
+playwright>=1.40.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+google-genai>=0.1.1
+edge-tts>=6.1.9
+SpeechRecognition>=3.10.0
+python-dotenv>=1.0.0
+scipy>=1.10.0
+imageio-ffmpeg>=0.4.9
+elevenlabs>=1.0.0

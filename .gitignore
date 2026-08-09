@@ -1,0 +1,8 @@
+.env
+browser_profile/
+temp/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/

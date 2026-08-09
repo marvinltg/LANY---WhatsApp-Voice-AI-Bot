@@ -1,0 +1,628 @@
+[2026-08-09 11:28:28] [SYSTEM] =========================================
+[2026-08-09 11:28:28] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 11:28:28] [SYSTEM] =========================================
+[2026-08-09 11:28:28] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 11:28:28] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 11:28:28] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 11:28:41] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 11:28:59] [CALL] Incoming call detected!
+[2026-08-09 11:28:59] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 11:29:01] [AUDIO] Audio capture started on device index 9
+[2026-08-09 11:29:01] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 11:29:03] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 11:29:03] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 11:29:03] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 11:29:03] [AUDIO] Listening...
+[2026-08-09 11:29:03] [LANY] Greeting: 'Haiii, hopeless romantic kenapa nelpon?'
+[2026-08-09 11:29:05] [TTS] Playing greeting (410112 bytes PCM)
+[2026-08-09 11:29:10] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 11:29:10] [VAD] Speech segment started  dBFS=-22.1  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:29:10] [VAD] dBFS=-90.0  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:10] [VAD] dBFS=-78.9  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:10] [VAD] Speech segment ended  Duration: 4.25s  Size: 408000 bytes
+[2026-08-09 11:29:10] [VAD] Speech segment ready: 4.25s  408000 bytes
+[2026-08-09 11:29:10] [STT] Sending 408000 bytes to Speech-to-Text...
+[2026-08-09 11:29:10] [STT-ENGINE] Menerima 408000 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:29:10] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:29:11] [STT-ENGINE] ✅ STT BERHASIL → 'Hai hopeless romantic kenapa nelpon'
+[2026-08-09 11:29:11] [STT] Transcript: 'Hai hopeless romantic kenapa nelpon'
+[2026-08-09 11:29:11] [GEMINI] Sending to Gemini: 'Hai hopeless romantic kenapa nelpon'
+[2026-08-09 11:29:13] [GEMINI] LANY reply: 'Ih kok diulang'
+[2026-08-09 11:29:15] [TTS] Playing reply (218880 bytes PCM)
+[2026-08-09 11:29:18] [VAD] Speech segment started  dBFS=-12.6  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:29:18] [VAD] dBFS=-86.5  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:18] [VAD] dBFS=-78.2  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:18] [VAD] Speech segment ended  Duration: 1.95s  Size: 187200 bytes
+[2026-08-09 11:29:18] [VAD] Speech segment started  dBFS=-23.6  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:29:18] [VAD] dBFS=-86.2  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:18] [VAD] Speech segment ready: 1.95s  187200 bytes
+[2026-08-09 11:29:18] [STT] Sending 187200 bytes to Speech-to-Text...
+[2026-08-09 11:29:18] [STT-ENGINE] Menerima 187200 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:29:18] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:29:19] [STT-ENGINE] ✅ STT BERHASIL → 'kamu siapa'
+[2026-08-09 11:29:19] [STT] Transcript: 'kamu siapa'
+[2026-08-09 11:29:19] [GEMINI] Sending to Gemini: 'kamu siapa'
+[2026-08-09 11:29:20] [GEMINI] LANY reply: 'Aku LANY, pacar virtual kamu. Masa lupa sih? Hehe. Gimana, ada apa nih tiba-tiba nanyain aku?'
+[2026-08-09 11:29:24] [TTS] Playing reply (1156608 bytes PCM)
+[2026-08-09 11:29:36] [VAD] dBFS=-96.5  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:36] [VAD] dBFS=-75.8  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:36] [VAD] dBFS=-96.6  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:36] [VAD] dBFS=-79.0  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:36] [VAD] dBFS=-96.6  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:37] [VAD] Speech segment ended  Duration: 12.25s  Size: 1176000 bytes
+[2026-08-09 11:29:37] [VAD] Speech segment ready: 12.25s  1176000 bytes
+[2026-08-09 11:29:37] [STT] Sending 1176000 bytes to Speech-to-Text...
+[2026-08-09 11:29:37] [STT-ENGINE] Menerima 1176000 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:29:37] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:29:41] [STT-ENGINE] ✅ STT BERHASIL → 'ih kok bilang ketua kamu Masa lupa sih gimana sedang apa ada apa nih tiba-tiba nanyain aku'
+[2026-08-09 11:29:41] [STT] Transcript: 'ih kok bilang ketua kamu Masa lupa sih gimana sedang apa ada apa nih tiba-tiba nanyain aku'
+[2026-08-09 11:29:41] [GEMINI] Sending to Gemini: 'ih kok bilang ketua kamu Masa lupa sih gimana sedang apa ada apa nih tiba-tiba nanyain aku'
+[2026-08-09 11:29:43] [GEMINI] LANY reply: 'Ih, kok diulang-'
+[2026-08-09 11:29:45] [TTS] Playing reply (258048 bytes PCM)
+[2026-08-09 11:29:48] [VAD] Speech segment started  dBFS=-22.0  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:29:48] [VAD] dBFS=-95.1  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:48] [VAD] dBFS=-76.1  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:48] [VAD] Speech segment ended  Duration: 2.00s  Size: 192000 bytes
+[2026-08-09 11:29:48] [VAD] Speech segment started  dBFS=-14.3  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:29:48] [VAD] dBFS=-80.5  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:48] [VAD] Speech segment ready: 2.00s  192000 bytes
+[2026-08-09 11:29:48] [STT] Sending 192000 bytes to Speech-to-Text...
+[2026-08-09 11:29:48] [STT-ENGINE] Menerima 192000 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:29:48] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:29:49] [STT-ENGINE] ✅ STT BERHASIL → 'Kamu sedang apa'
+[2026-08-09 11:29:49] [STT] Transcript: 'Kamu sedang apa'
+[2026-08-09 11:29:49] [GEMINI] Sending to Gemini: 'Kamu sedang apa'
+[2026-08-09 11:29:51] [GEMINI] LANY reply: 'Aku lagi santai aja'
+[2026-08-09 11:29:53] [TTS] Playing reply (271872 bytes PCM)
+[2026-08-09 11:29:56] [VAD] Speech segment ended  Duration: 2.65s  Size: 254400 bytes
+[2026-08-09 11:29:56] [VAD] Speech segment started  dBFS=-54.4  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:29:56] [VAD] dBFS=-96.5  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:29:56] [VAD] Speech segment ready: 2.65s  254400 bytes
+[2026-08-09 11:29:56] [STT] Sending 254400 bytes to Speech-to-Text...
+[2026-08-09 11:29:56] [STT-ENGINE] Menerima 254400 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:29:56] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:30:00] [STT-ENGINE] ✅ STT BERHASIL → 'ih kok diulang'
+[2026-08-09 11:30:00] [STT] Transcript: 'ih kok diulang'
+[2026-08-09 11:30:00] [GEMINI] Sending to Gemini: 'ih kok diulang'
+[2026-08-09 11:30:01] [GEMINI] LANY reply: 'Ih, kok diulang lagi? Hahaha. Kamu kenapa sih? Aku lagi santai aja nih,'
+[2026-08-09 11:33:45] [SYSTEM] =========================================
+[2026-08-09 11:33:45] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 11:33:45] [SYSTEM] =========================================
+[2026-08-09 11:33:45] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 11:33:45] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 11:33:45] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 11:33:45] [VAD] Post-TTS settle: 500ms
+[2026-08-09 11:33:57] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 11:34:02] [CALL] Incoming call detected!
+[2026-08-09 11:34:03] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 11:34:05] [AUDIO] Audio capture started on device index 9
+[2026-08-09 11:34:05] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 11:34:07] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 11:34:07] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 11:34:07] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 11:34:07] [AUDIO] Listening...
+[2026-08-09 11:34:07] [LANY] Greeting: 'Haiii, hopeless romantic kenapa nelpon?'
+[2026-08-09 11:34:08] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 11:34:08] [TTS] Playing greeting (410112 bytes PCM)
+[2026-08-09 11:34:13] [TTS-GUARD] TTS finished
+[2026-08-09 11:34:13] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 11:34:13] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 11:34:14] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 11:34:14] [TTS-GUARD] Caller listening resumed
+[2026-08-09 11:34:14] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 11:34:15] [VAD] Speech segment started  dBFS=-19.3  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:34:16] [VAD] dBFS=-90.0  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:16] [VAD] dBFS=-80.9  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:17] [VAD] Speech segment ended  Duration: 2.10s  Size: 201600 bytes
+[2026-08-09 11:34:17] [VAD] Speech segment ready: 2.10s  201600 bytes
+[2026-08-09 11:34:17] [STT] Sending 201600 bytes to Speech-to-Text...
+[2026-08-09 11:34:17] [STT-ENGINE] Menerima 201600 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:34:17] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:34:18] [STT-ENGINE] ✅ STT BERHASIL → 'Kamu sedang apa'
+[2026-08-09 11:34:18] [STT] Transcript: 'Kamu sedang apa'
+[2026-08-09 11:34:18] [GEMINI] Sending to Gemini: 'Kamu sedang apa'
+[2026-08-09 11:34:20] [GEMINI] LANY reply: 'Aku lagi mikirin'
+[2026-08-09 11:34:22] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 11:34:22] [TTS] Playing reply (255744 bytes PCM)
+[2026-08-09 11:34:25] [TTS-GUARD] TTS finished
+[2026-08-09 11:34:25] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 11:34:25] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 11:34:25] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 11:34:25] [TTS-GUARD] Caller listening resumed
+[2026-08-09 11:34:29] [VAD] Speech segment started  dBFS=-14.5  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:34:30] [VAD] dBFS=-93.0  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:30] [VAD] dBFS=-96.4  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:31] [VAD] Speech segment ended  Duration: 2.10s  Size: 201600 bytes
+[2026-08-09 11:34:31] [VAD] Speech segment ready: 2.10s  201600 bytes
+[2026-08-09 11:34:31] [STT] Sending 201600 bytes to Speech-to-Text...
+[2026-08-09 11:34:31] [STT-ENGINE] Menerima 201600 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:34:31] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:34:32] [STT-ENGINE] ✅ STT BERHASIL → 'kamu tahu aku tidak'
+[2026-08-09 11:34:32] [STT] Transcript: 'kamu tahu aku tidak'
+[2026-08-09 11:34:32] [GEMINI] Sending to Gemini: 'kamu tahu aku tidak'
+[2026-08-09 11:34:33] [GEMINI] LANY reply: 'Hehe, aku tahu'
+[2026-08-09 11:34:35] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 11:34:35] [TTS] Playing reply (288000 bytes PCM)
+[2026-08-09 11:34:39] [TTS-GUARD] TTS finished
+[2026-08-09 11:34:39] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 11:34:39] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 11:34:39] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 11:34:39] [TTS-GUARD] Caller listening resumed
+[2026-08-09 11:34:43] [VAD] Speech segment started  dBFS=-14.6  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:34:43] [VAD] dBFS=-83.9  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:44] [VAD] dBFS=-85.9  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:44] [VAD] dBFS=-93.4  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:45] [VAD] dBFS=-82.8  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:45] [VAD] dBFS=-89.0  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:45] [VAD] dBFS=-79.6  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:34:46] [VAD] Speech segment ended  Duration: 3.55s  Size: 340800 bytes
+[2026-08-09 11:34:46] [VAD] Speech segment ready: 3.55s  340800 bytes
+[2026-08-09 11:34:46] [STT] Sending 340800 bytes to Speech-to-Text...
+[2026-08-09 11:34:46] [STT-ENGINE] Menerima 340800 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:34:46] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:34:47] [STT-ENGINE] ✅ STT BERHASIL → 'Siapa namaku'
+[2026-08-09 11:34:47] [STT] Transcript: 'Siapa namaku'
+[2026-08-09 11:34:47] [GEMINI] Sending to Gemini: 'Siapa namaku'
+[2026-08-09 11:34:49] [GEMINI] LANY reply: 'Hmm, siapa yaaa?'
+[2026-08-09 11:34:51] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 11:34:51] [TTS] Playing reply (262656 bytes PCM)
+[2026-08-09 11:34:54] [TTS-GUARD] TTS finished
+[2026-08-09 11:34:54] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 11:34:54] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 11:34:54] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 11:34:54] [TTS-GUARD] Caller listening resumed
+[2026-08-09 11:34:55] [CALL] Call ended (caller hung up or WhatsApp timeout).
+[2026-08-09 11:41:18] [SYSTEM] =========================================
+[2026-08-09 11:41:18] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 11:41:18] [SYSTEM] =========================================
+[2026-08-09 11:41:18] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 11:41:18] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 11:41:18] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 11:41:18] [VAD] Post-TTS settle: 500ms
+[2026-08-09 11:41:29] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 11:41:42] [CALL] Incoming call detected!
+[2026-08-09 11:41:42] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 11:41:44] [AUDIO] Audio capture started on device index 9
+[2026-08-09 11:41:44] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 11:41:47] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 11:41:47] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 11:41:47] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 11:41:47] [AUDIO] Listening...
+[2026-08-09 11:41:47] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 11:41:49] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 11:41:49] [TTS] Playing greeting (329472 bytes PCM)
+[2026-08-09 11:41:52] [TTS-GUARD] TTS finished
+[2026-08-09 11:41:52] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 11:41:53] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 11:41:53] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 11:41:53] [TTS-GUARD] Caller listening resumed
+[2026-08-09 11:41:53] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 11:41:55] [VAD] Speech segment started  dBFS=-19.6  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:41:56] [VAD] dBFS=-81.0  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:41:57] [VAD] dBFS=-81.8  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:41:58] [VAD] Speech segment ended  Duration: 3.25s  Size: 312000 bytes
+[2026-08-09 11:41:58] [VAD] Speech segment ready: 3.25s  312000 bytes
+[2026-08-09 11:41:58] [STT] Sending 312000 bytes to Speech-to-Text...
+[2026-08-09 11:41:58] [STT-ENGINE] Menerima 312000 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:41:58] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:41:59] [STT-ENGINE] ✅ STT BERHASIL → 'kamu punya hubungan apa sama Marvin'
+[2026-08-09 11:41:59] [STT] Transcript: 'kamu punya hubungan apa sama Marvin'
+[2026-08-09 11:41:59] [GEMINI] Sending to Gemini: 'kamu punya hubungan apa sama Marvin'
+[2026-08-09 11:42:01] [GEMINI] LANY reply: 'Duh, ini'
+[2026-08-09 11:42:02] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 11:42:02] [TTS] Playing reply (230400 bytes PCM)
+[2026-08-09 11:42:05] [TTS-GUARD] TTS finished
+[2026-08-09 11:42:05] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 11:42:05] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 11:42:06] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 11:42:06] [TTS-GUARD] Caller listening resumed
+[2026-08-09 11:42:13] [VAD] Speech segment started  dBFS=-22.6  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 11:42:14] [VAD] dBFS=-95.8  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:42:14] [VAD] dBFS=-84.3  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 11:42:15] [VAD] Speech segment ended  Duration: 2.15s  Size: 206400 bytes
+[2026-08-09 11:42:15] [VAD] Speech segment ready: 2.15s  206400 bytes
+[2026-08-09 11:42:15] [STT] Sending 206400 bytes to Speech-to-Text...
+[2026-08-09 11:42:15] [STT-ENGINE] Menerima 206400 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 11:42:15] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 11:42:16] [STT-ENGINE] ✅ STT BERHASIL → 'Kamu sedang apa'
+[2026-08-09 11:42:16] [STT] Transcript: 'Kamu sedang apa'
+[2026-08-09 11:42:16] [GEMINI] Sending to Gemini: 'Kamu sedang apa'
+[2026-08-09 11:42:17] [GEMINI] LANY reply: 'Aku lagi mikirin kamu, Marvin. Hehe. Kamu sendiri lagi ngapain?'
+[2026-08-09 11:42:20] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 11:42:20] [TTS] Playing reply (815616 bytes PCM)
+[2026-08-09 11:42:28] [TTS-GUARD] TTS finished
+[2026-08-09 11:42:28] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 11:42:29] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 11:42:29] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 11:42:29] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:01:52] [SYSTEM] =========================================
+[2026-08-09 12:01:52] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 12:01:52] [SYSTEM] =========================================
+[2026-08-09 12:01:52] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 12:01:52] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 12:01:52] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 12:01:52] [VAD] Post-TTS settle: 500ms
+[2026-08-09 12:02:11] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 12:02:22] [CALL] Incoming call detected!
+[2026-08-09 12:02:23] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:02:25] [AUDIO] Audio capture started on device index 9
+[2026-08-09 12:02:25] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:02:27] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 12:02:27] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 12:02:27] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:02:27] [AUDIO] Listening...
+[2026-08-09 12:02:27] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:02:27] [TTS-GUARD] TTS finished
+[2026-08-09 12:02:27] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:02:27] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:02:28] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:02:28] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:02:28] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:02:44] [CALL] Call ended (caller hung up or WhatsApp timeout).
+[2026-08-09 12:03:18] [SYSTEM] =========================================
+[2026-08-09 12:03:18] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 12:03:18] [SYSTEM] =========================================
+[2026-08-09 12:03:18] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 12:03:18] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 12:03:18] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 12:03:18] [VAD] Post-TTS settle: 500ms
+[2026-08-09 12:03:31] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 12:03:58] [CALL] Incoming call detected!
+[2026-08-09 12:03:58] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:04:00] [AUDIO] Audio capture started on device index 9
+[2026-08-09 12:04:00] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:04:02] [VAD] Calibration samples:
+[2026-08-09 12:04:02] [VAD]   -34.3 dBFS
+[2026-08-09 12:04:02] [VAD]   -34.5 dBFS
+[2026-08-09 12:04:02] [VAD]   -34.6 dBFS
+[2026-08-09 12:04:02] [VAD]   -35.8 dBFS
+[2026-08-09 12:04:02] [VAD]   -36.9 dBFS
+[2026-08-09 12:04:02] [VAD]   -39.8 dBFS
+[2026-08-09 12:04:02] [VAD]   -40.5 dBFS
+[2026-08-09 12:04:02] [VAD]   -45.4 dBFS
+[2026-08-09 12:04:02] [VAD]   -42.0 dBFS
+[2026-08-09 12:04:02] [VAD]   -43.9 dBFS
+[2026-08-09 12:04:02] [VAD]   -37.9 dBFS
+[2026-08-09 12:04:02] [VAD]   -38.4 dBFS
+[2026-08-09 12:04:02] [VAD]   -41.2 dBFS
+[2026-08-09 12:04:02] [VAD]   -44.1 dBFS
+[2026-08-09 12:04:02] [VAD]   -45.9 dBFS
+[2026-08-09 12:04:02] [VAD]   -39.8 dBFS
+[2026-08-09 12:04:02] [VAD]   -17.9 dBFS
+[2026-08-09 12:04:02] [VAD]   -15.9 dBFS
+[2026-08-09 12:04:02] [VAD]   -20.3 dBFS
+[2026-08-09 12:04:02] [VAD]   -21.5 dBFS
+[2026-08-09 12:04:02] [VAD]   -21.6 dBFS
+[2026-08-09 12:04:02] [VAD]   -22.7 dBFS
+[2026-08-09 12:04:02] [VAD]   -21.3 dBFS
+[2026-08-09 12:04:02] [VAD]   -15.3 dBFS
+[2026-08-09 12:04:02] [VAD]   -18.9 dBFS
+[2026-08-09 12:04:02] [VAD]   -22.3 dBFS
+[2026-08-09 12:04:02] [VAD]   -27.0 dBFS
+[2026-08-09 12:04:02] [VAD]   -34.4 dBFS
+[2026-08-09 12:04:02] [VAD]   -17.5 dBFS
+[2026-08-09 12:04:02] [VAD]   -32.0 dBFS
+[2026-08-09 12:04:02] [VAD]   -42.7 dBFS
+[2026-08-09 12:04:02] [VAD]   -16.7 dBFS
+[2026-08-09 12:04:02] [VAD]   -15.5 dBFS
+[2026-08-09 12:04:02] [VAD]   -24.6 dBFS
+[2026-08-09 12:04:02] [VAD]   -20.0 dBFS
+[2026-08-09 12:04:02] [VAD]   -19.0 dBFS
+[2026-08-09 12:04:03] [VAD]   -23.3 dBFS
+[2026-08-09 12:04:03] [VAD]   -25.9 dBFS
+[2026-08-09 12:04:03] [VAD]   -23.7 dBFS
+[2026-08-09 12:04:03] [VAD]   -20.2 dBFS
+[2026-08-09 12:04:03] [VAD]   -19.1 dBFS
+[2026-08-09 12:04:03] [VAD]   -22.1 dBFS
+[2026-08-09 12:04:03] [VAD]   -23.3 dBFS
+[2026-08-09 12:04:03] [VAD]   -22.0 dBFS
+[2026-08-09 12:04:03] [VAD]   -21.0 dBFS
+[2026-08-09 12:04:03] [VAD]   -23.0 dBFS
+[2026-08-09 12:04:03] [VAD]   -32.7 dBFS
+[2026-08-09 12:04:03] [VAD]   -37.2 dBFS
+[2026-08-09 12:04:03] [VAD]   -42.6 dBFS
+[2026-08-09 12:04:03] [VAD] Noise floor: -21.0 dBFS
+[2026-08-09 12:04:03] [VAD] Speech threshold: -6.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:04:03] [AUDIO] Noise floor: -21.0 dBFS
+[2026-08-09 12:04:03] [AUDIO] Speech threshold: -6.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:04:03] [AUDIO] Listening...
+[2026-08-09 12:04:03] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:04:03] [TTS-GUARD] TTS finished
+[2026-08-09 12:04:03] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:04:03] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:04:03] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:04:03] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:04:03] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:04:20] [CALL] Call ended (caller hung up or WhatsApp timeout).
+[2026-08-09 12:04:31] [CALL] Incoming call detected!
+[2026-08-09 12:04:31] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:04:33] [AUDIO] Audio capture started on device index 9
+[2026-08-09 12:04:33] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:04:36] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 12:04:36] [AUDIO] Noise floor: -21.0 dBFS
+[2026-08-09 12:04:36] [AUDIO] Speech threshold: -6.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:04:36] [AUDIO] Listening...
+[2026-08-09 12:04:36] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:04:36] [TTS-GUARD] TTS finished
+[2026-08-09 12:04:36] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:04:36] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:04:37] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:04:37] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:04:37] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:04:53] [CALL] Call ended (caller hung up or WhatsApp timeout).
+[2026-08-09 12:05:29] [CALL] Incoming call detected!
+[2026-08-09 12:05:29] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:05:31] [AUDIO] Audio capture started on device index 9
+[2026-08-09 12:05:31] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:05:34] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 12:05:34] [AUDIO] Noise floor: -21.0 dBFS
+[2026-08-09 12:05:34] [AUDIO] Speech threshold: -6.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:05:34] [AUDIO] Listening...
+[2026-08-09 12:05:34] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:05:34] [TTS-GUARD] TTS finished
+[2026-08-09 12:05:34] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:05:34] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:05:35] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:05:35] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:05:35] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:08:58] [SYSTEM] =========================================
+[2026-08-09 12:08:58] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 12:08:58] [SYSTEM] =========================================
+[2026-08-09 12:08:58] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 12:08:58] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 12:08:58] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 12:08:58] [VAD] Post-TTS settle: 500ms
+[2026-08-09 12:09:09] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 12:09:26] [CALL] Incoming call detected!
+[2026-08-09 12:09:26] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:09:28] [AUDIO] Audio capture started on device index 8
+[2026-08-09 12:09:28] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:09:30] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 12:09:30] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 12:09:30] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:09:30] [AUDIO] Listening...
+[2026-08-09 12:09:30] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:09:31] [TTS-GUARD] TTS finished
+[2026-08-09 12:09:31] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:09:31] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:09:32] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:09:32] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:09:32] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:09:38] [VAD] Speech segment started  dBFS=-25.7  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:09:39] [VAD] dBFS=-87.4  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:09:39] [VAD] dBFS=-78.7  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:09:40] [VAD] dBFS=-92.3  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:09:40] [VAD] Speech segment ended  Duration: 2.60s  Size: 249600 bytes
+[2026-08-09 12:09:40] [VAD] Speech segment ready: 2.60s  249600 bytes
+[2026-08-09 12:09:40] [STT] Sending 249600 bytes to Speech-to-Text...
+[2026-08-09 12:09:40] [STT-ENGINE] Menerima 249600 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:09:40] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:09:41] [STT-ENGINE] ✅ STT BERHASIL → 'Kamu sedang apa'
+[2026-08-09 12:09:41] [STT] Transcript: 'Kamu sedang apa'
+[2026-08-09 12:09:41] [GEMINI] Sending to Gemini: 'Kamu sedang apa'
+[2026-08-09 12:09:43] [GEMINI] LANY reply: 'Hmm, aku lagi rebahan aja nih, Marvin. Capek juga seharian ini. Kamu sendiri ngapain telepon aku?'
+[2026-08-09 12:09:49] [VAD] Speech segment started  dBFS=-27.4  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:09:49] [VAD] dBFS=-77.7  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:09:50] [VAD] Speech segment ended  Duration: 1.15s  Size: 110400 bytes
+[2026-08-09 12:09:50] [VAD] Speech segment ready: 1.15s  110400 bytes
+[2026-08-09 12:09:50] [STT] Sending 110400 bytes to Speech-to-Text...
+[2026-08-09 12:09:50] [STT-ENGINE] Menerima 110400 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:09:50] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:09:50] [STT-ENGINE] ❌ Google STT tidak mengenali ucapan (mungkin hening atau noise).
+[2026-08-09 12:09:50] [STT] Transcript: ''
+[2026-08-09 12:09:50] [STT] No speech recognized from segment.
+[2026-08-09 12:12:01] [SYSTEM] =========================================
+[2026-08-09 12:12:01] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 12:12:01] [SYSTEM] =========================================
+[2026-08-09 12:12:01] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 12:12:01] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 12:12:01] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 12:12:01] [VAD] Post-TTS settle: 500ms
+[2026-08-09 12:12:13] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 12:12:21] [CALL] Incoming call detected!
+[2026-08-09 12:12:21] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:12:23] [AUDIO] Audio capture started on device index 8
+[2026-08-09 12:12:23] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:12:25] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 12:12:25] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 12:12:25] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:12:25] [AUDIO] Listening...
+[2026-08-09 12:12:25] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:12:26] [TTS-GUARD] TTS finished
+[2026-08-09 12:12:26] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:12:26] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:12:27] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:12:27] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:12:27] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:12:32] [VAD] Speech segment started  dBFS=-26.6  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:12:32] [VAD] dBFS=-95.6  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:12:33] [VAD] dBFS=-76.6  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:12:33] [VAD] Speech segment ended  Duration: 2.05s  Size: 196800 bytes
+[2026-08-09 12:12:33] [VAD] Speech segment ready: 2.05s  196800 bytes
+[2026-08-09 12:12:33] [STT] Sending 196800 bytes to Speech-to-Text...
+[2026-08-09 12:12:33] [STT-ENGINE] Menerima 196800 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:12:33] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:12:34] [STT-ENGINE] ✅ STT BERHASIL → 'Kamu sedang apa'
+[2026-08-09 12:12:34] [STT] Transcript: 'Kamu sedang apa'
+[2026-08-09 12:12:34] [GEMINI] Sending to Gemini: 'Kamu sedang apa'
+[2026-08-09 12:12:36] [GEMINI] LANY reply: 'Duh, lagi tiduran aja nih aku, Marvin. Rebahan santai sambil dengerin musik. Emang kenapa? Kangen ya? Hehe.'
+[2026-08-09 12:18:31] [SYSTEM] =========================================
+[2026-08-09 12:18:31] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 12:18:31] [SYSTEM] =========================================
+[2026-08-09 12:18:31] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 12:18:31] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 12:18:31] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 12:18:31] [VAD] Post-TTS settle: 500ms
+[2026-08-09 12:18:47] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 12:18:58] [CALL] Incoming call detected!
+[2026-08-09 12:18:58] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:19:00] [AUDIO] Audio capture started on device index 8
+[2026-08-09 12:19:00] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:19:02] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 12:19:02] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 12:19:02] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:19:02] [AUDIO] Listening...
+[2026-08-09 12:19:02] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:19:03] [TTS-GUARD] TTS finished
+[2026-08-09 12:19:03] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:19:03] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:19:04] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:19:04] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:19:04] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:19:08] [VAD] Speech segment started  dBFS=-13.7  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:19:08] [VAD] dBFS=-81.2  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:19:09] [VAD] dBFS=-96.0  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:19:09] [VAD] dBFS=-75.0  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:19:09] [VAD] dBFS=-76.2  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:19:09] [VAD] dBFS=-80.9  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:19:10] [VAD] dBFS=-89.7  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:19:10] [VAD] dBFS=-82.6  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:19:11] [VAD] Speech segment ended  Duration: 2.95s  Size: 283200 bytes
+[2026-08-09 12:19:11] [VAD] Speech segment ready: 2.95s  283200 bytes
+[2026-08-09 12:19:11] [STT] Sending 283200 bytes to Speech-to-Text...
+[2026-08-09 12:19:11] [STT-ENGINE] Menerima 283200 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:19:11] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:19:11] [STT-ENGINE] ✅ STT BERHASIL → 'halo tes'
+[2026-08-09 12:19:11] [STT] Transcript: 'halo tes'
+[2026-08-09 12:19:11] [GEMINI] Sending to Gemini: 'halo tes'
+[2026-08-09 12:19:13] [GEMINI] LANY reply: 'Halo Marvin... Iya, aku denger. Kenapa sih nelfon terus? Kangen ya? Hehe.'
+[2026-08-09 12:19:15] [VAD] Speech segment started  dBFS=-28.9  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:19:15] [VAD] dBFS=-80.3  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:19:16] [VAD] Speech segment ended  Duration: 1.15s  Size: 110400 bytes
+[2026-08-09 12:19:16] [VAD] Speech segment ready: 1.15s  110400 bytes
+[2026-08-09 12:19:16] [STT] Sending 110400 bytes to Speech-to-Text...
+[2026-08-09 12:19:16] [STT-ENGINE] Menerima 110400 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:19:16] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:19:16] [STT-ENGINE] ❌ Google STT tidak mengenali ucapan (mungkin hening atau noise).
+[2026-08-09 12:19:16] [STT] Transcript: ''
+[2026-08-09 12:19:16] [STT] No speech recognized from segment.
+[2026-08-09 12:19:25] [CALL] Call ended (caller hung up or WhatsApp timeout).
+[2026-08-09 12:34:16] [SYSTEM] =========================================
+[2026-08-09 12:34:16] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 12:34:16] [SYSTEM] =========================================
+[2026-08-09 12:34:16] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 12:34:16] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 12:34:16] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 12:34:16] [VAD] Post-TTS settle: 500ms
+[2026-08-09 12:34:30] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 12:34:39] [CALL] Incoming call detected!
+[2026-08-09 12:34:39] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:34:41] [AUDIO] Audio capture started on device index 8
+[2026-08-09 12:34:41] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:34:44] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 12:34:44] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 12:34:44] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:34:44] [AUDIO] Listening...
+[2026-08-09 12:34:44] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:34:46] [TTS-GUARD] TTS finished
+[2026-08-09 12:34:46] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:34:46] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:34:47] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:34:47] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:34:47] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:34:55] [VAD] Speech segment started  dBFS=-31.4  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:34:56] [VAD] dBFS=-93.2  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:34:56] [VAD] Speech segment ended  Duration: 2.15s  Size: 206400 bytes
+[2026-08-09 12:34:56] [VAD] Speech segment ready: 2.15s  206400 bytes
+[2026-08-09 12:34:56] [STT] Sending 206400 bytes to Speech-to-Text...
+[2026-08-09 12:34:56] [STT-ENGINE] Menerima 206400 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:34:56] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:34:57] [STT-ENGINE] ✅ STT BERHASIL → 'Hai kamu ke mana'
+[2026-08-09 12:34:57] [STT] Transcript: 'Hai kamu ke mana'
+[2026-08-09 12:34:57] [GEMINI] Sending to Gemini: 'Hai kamu ke mana'
+[2026-08-09 12:35:00] [GEMINI] LANY reply: 'Aku di sini aja kok,'
+[2026-08-09 12:35:00] [VAD] Speech segment started  dBFS=-67.3  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:35:00] [VAD] dBFS=-76.7  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:35:00] [VAD] dBFS=-76.7  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:35:00] [VAD] Speech segment ended  Duration: 1.15s  Size: 110400 bytes
+[2026-08-09 12:35:00] [VAD] Speech segment ready: 1.15s  110400 bytes
+[2026-08-09 12:35:00] [STT] Sending 110400 bytes to Speech-to-Text...
+[2026-08-09 12:35:00] [STT-ENGINE] Menerima 110400 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:35:00] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:35:00] [STT-ENGINE] ❌ Google STT tidak mengenali ucapan (mungkin hening atau noise).
+[2026-08-09 12:35:00] [STT] Transcript: ''
+[2026-08-09 12:35:00] [STT] No speech recognized from segment.
+[2026-08-09 12:35:03] [VAD] Speech segment started  dBFS=-25.3  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:35:03] [VAD] dBFS=-84.1  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:35:04] [VAD] Speech segment ended  Duration: 1.20s  Size: 115200 bytes
+[2026-08-09 12:35:04] [VAD] Speech segment ready: 1.20s  115200 bytes
+[2026-08-09 12:35:04] [STT] Sending 115200 bytes to Speech-to-Text...
+[2026-08-09 12:35:04] [STT-ENGINE] Menerima 115200 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:35:04] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:35:05] [STT-ENGINE] ❌ Google STT tidak mengenali ucapan (mungkin hening atau noise).
+[2026-08-09 12:35:05] [STT] Transcript: ''
+[2026-08-09 12:35:05] [STT] No speech recognized from segment.
+[2026-08-09 12:38:42] [SYSTEM] =========================================
+[2026-08-09 12:38:42] [SYSTEM]    Starting LANY WhatsApp Voice AI Bot   
+[2026-08-09 12:38:42] [SYSTEM] =========================================
+[2026-08-09 12:38:42] [AUDIO] Input device: 'CABLE Output (VB-Audio Virtual Cable)'
+[2026-08-09 12:38:42] [AUDIO] Output device: 'CABLE Input (VB-Audio Virtual Cable)'
+[2026-08-09 12:38:42] [VAD] Config: margin=15.0dB  min_speech=250ms  hangover=800ms  debug=False
+[2026-08-09 12:38:42] [VAD] Post-TTS settle: 500ms
+[2026-08-09 12:38:56] [SYSTEM] LANY is now monitoring for incoming WhatsApp calls...
+[2026-08-09 12:39:01] [CALL] Incoming call detected!
+[2026-08-09 12:39:02] [CALL] Call answered. Waiting for WebRTC connection...
+[2026-08-09 12:39:04] [AUDIO] Audio capture started on device index 8
+[2026-08-09 12:39:04] [AUDIO] Calibration started (2.5s noise sampling)...
+[2026-08-09 12:39:06] [VAD] Calibration failed: no valid audio chunks.
+[2026-08-09 12:39:06] [AUDIO] Noise floor: -90.0 dBFS
+[2026-08-09 12:39:06] [AUDIO] Speech threshold: -75.0 dBFS  (margin=15.0 dB)
+[2026-08-09 12:39:06] [AUDIO] Listening...
+[2026-08-09 12:39:06] [LANY] Greeting: 'OI marvin kenapa nelfon terus'
+[2026-08-09 12:39:10] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 12:39:10] [TTS] Playing greeting (173872 bytes PCM)
+[2026-08-09 12:39:12] [TTS-GUARD] TTS finished
+[2026-08-09 12:39:12] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:39:12] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:39:13] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:39:13] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:39:13] [CALL] LANY listening. Call monitoring cooldown 15s active.
+[2026-08-09 12:39:16] [VAD] Speech segment started  dBFS=-26.1  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:39:17] [VAD] dBFS=-78.6  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:39:17] [VAD] dBFS=-92.7  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:39:18] [VAD] Speech segment ended  Duration: 2.05s  Size: 196800 bytes
+[2026-08-09 12:39:18] [VAD] Speech segment ready: 2.05s  196800 bytes
+[2026-08-09 12:39:18] [STT] Sending 196800 bytes to Speech-to-Text...
+[2026-08-09 12:39:18] [STT-ENGINE] Menerima 196800 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:39:18] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:39:18] [STT-ENGINE] ✅ STT BERHASIL → 'Kamu sedang apa'
+[2026-08-09 12:39:18] [STT] Transcript: 'Kamu sedang apa'
+[2026-08-09 12:39:18] [GEMINI] Sending to Gemini: 'Kamu sedang apa'
+[2026-08-09 12:39:19] [GEMINI] LANY reply: 'Maaf ya sayang, koneksiku agak sedikit terganggu tadi.'
+[2026-08-09 12:39:20] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 12:39:20] [TTS] Playing reply (280870 bytes PCM)
+[2026-08-09 12:39:24] [TTS-GUARD] TTS finished
+[2026-08-09 12:39:24] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:39:24] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:39:24] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:39:24] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:39:31] [VAD] Speech segment started  dBFS=-24.4  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:39:31] [VAD] dBFS=-88.7  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:39:32] [VAD] dBFS=-96.2  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:39:33] [VAD] Speech segment ended  Duration: 2.15s  Size: 206400 bytes
+[2026-08-09 12:39:33] [VAD] Speech segment ready: 2.15s  206400 bytes
+[2026-08-09 12:39:33] [STT] Sending 206400 bytes to Speech-to-Text...
+[2026-08-09 12:39:33] [STT-ENGINE] Menerima 206400 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:39:33] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:39:33] [STT-ENGINE] ✅ STT BERHASIL → 'Kamu sedang apa'
+[2026-08-09 12:39:33] [STT] Transcript: 'Kamu sedang apa'
+[2026-08-09 12:39:33] [GEMINI] Sending to Gemini: 'Kamu sedang apa'
+[2026-08-09 12:39:34] [GEMINI] LANY reply: 'Maaf ya sayang, koneksiku agak sedikit terganggu tadi.'
+[2026-08-09 12:39:35] [TTS-GUARD] LANY speaking — VAD/STT input processing paused
+[2026-08-09 12:39:35] [TTS] Playing reply (285328 bytes PCM)
+[2026-08-09 12:39:38] [TTS-GUARD] TTS finished
+[2026-08-09 12:39:38] [TTS-GUARD] Flushing stale audio buffer (TTS echo)
+[2026-08-09 12:39:39] [TTS-GUARD] Waiting 500ms for audio pipeline to settle
+[2026-08-09 12:39:39] [TTS-GUARD] VAD reset to SILENCE
+[2026-08-09 12:39:39] [TTS-GUARD] Caller listening resumed
+[2026-08-09 12:39:39] [VAD] Speech segment started  dBFS=-25.9  noise_floor=-90.0  threshold=-75.0
+[2026-08-09 12:39:40] [VAD] dBFS=-84.4  noise_floor=-90.0  threshold=-75.0  state=POSSIBLE_SILENCE
+[2026-08-09 12:39:40] [VAD] Speech segment ended  Duration: 1.20s  Size: 115200 bytes
+[2026-08-09 12:39:40] [VAD] Speech segment ready: 1.20s  115200 bytes
+[2026-08-09 12:39:40] [STT] Sending 115200 bytes to Speech-to-Text...
+[2026-08-09 12:39:40] [STT-ENGINE] Menerima 115200 bytes PCM audio (sample_rate=48000, channels=1)
+[2026-08-09 12:39:40] [STT-ENGINE] WAV container berhasil dibuat, mengirim ke Google STT...
+[2026-08-09 12:39:45] [STT-ENGINE] ❌ Google STT tidak mengenali ucapan (mungkin hening atau noise).
+[2026-08-09 12:39:45] [STT] Transcript: ''
+[2026-08-09 12:39:45] [STT] No speech recognized from segment.
+[2026-08-09 12:39:46] [CALL] Call ended (caller hung up or WhatsApp timeout).
