@@ -7,7 +7,7 @@ from datetime import datetime
 
 logger = logging.getLogger("LANY.VAD")
 
-LOG_FILE = "logtelp.txt"
+LOG_FILE = "log.txt"
 
 def _vad_log(message: str):
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

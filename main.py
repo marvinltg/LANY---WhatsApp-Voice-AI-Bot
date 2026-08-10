@@ -16,10 +16,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger("LANY.Main")
 
-LOG_FILE = "logtelp.txt"
+LOG_FILE = "log.txt"
 
 def call_log(tag: str, message: str):
-    """Write log to logtelp.txt and print to terminal."""
+    """Write log to log.txt and print to terminal."""
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{now}] [{tag}] {message}"
     print(line)
@@ -32,7 +32,7 @@ from src.audio.capture import AudioCapturer
 from src.audio.playback import AudioPlayer
 from src.audio.vad import VAD
 from src.stt.service import STTService
-from src.ai.gemini import GeminiClient
+from src.ai.groq_engine import GroqClient
 from src.ai.prompt_builder import load_ai_config
 from src.tts.service import TTSService
 from src.session.manager import SessionManager, CallState
@@ -128,7 +128,7 @@ async def run_LANY():
         debug=audio_debug,
     )
     stt      = STTService()
-    gemini   = GeminiClient()
+    ai_engine = GroqClient()
     tts      = TTSService()
     session  = SessionManager()
 
@@ -252,10 +252,10 @@ async def run_LANY():
                         if transcript:
                             session.add_history("user", transcript)
 
-                            call_log("GEMINI", f"Sending to Gemini: '{transcript}'")
+                            call_log("GROQ", f"Sending to Groq: '{transcript}'")
                             history = session.get_history()
-                            lany_reply = await gemini.generate_response(transcript, history[:-1])
-                            call_log("GEMINI", f"LANY reply: '{lany_reply}'")
+                            lany_reply = await ai_engine.generate_response(transcript, history[:-1])
+                            call_log("GROQ", f"LANY reply: '{lany_reply}'")
 
                             if lany_reply:
                                 session.update_state(CallState.SPEAKING)

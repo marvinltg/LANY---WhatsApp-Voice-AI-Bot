@@ -4,7 +4,7 @@ import logging
 import speech_recognition as sr
 from datetime import datetime
 
-LOG_FILE = "logtelp.txt"
+LOG_FILE = "log.txt"
 
 def _log(message: str):
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -31,7 +31,6 @@ class STTService:
         _log(f"Menerima {len(pcm_bytes)} bytes PCM audio (sample_rate={sample_rate}, channels={channels})")
 
         try:
-            # Wrap PCM bytes into WAV container in memory
             wav_io = io.BytesIO()
             with wave.open(wav_io, 'wb') as wav_file:
                 wav_file.setnchannels(channels)
@@ -47,14 +46,14 @@ class STTService:
 
             # Recognize speech using Google STT (Free endpoint)
             transcript = self.recognizer.recognize_google(audio_data, language=self.language)
-            _log(f"✅ STT BERHASIL → '{transcript}'")
+            _log(f"STT BERHASIL → '{transcript}'")
             logger.info(f"[STT RESULT] '{transcript}'")
-            print(f"👉 [STT] Suara Penelepon Dikonversi: '{transcript}'")
+            print(f"[STT] Suara Penelepon Dikonversi: '{transcript}'")
             return transcript
         except sr.UnknownValueError:
-            _log("❌ Google STT tidak mengenali ucapan (mungkin hening atau noise).")
+            _log("Google STT tidak mengenali ucapan (mungkin hening atau noise).")
             logger.debug("[STT] Speech not recognized (silence or ambient noise).")
-            print("👉 [STT] Suara tidak terdengar jelas / hening.")
+            print("[STT] Suara tidak terdengar jelas / hening.")
             return ""
         except sr.RequestError as e:
             logger.error(f"[STT] API request error: {e}")

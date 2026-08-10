@@ -1,5 +1,6 @@
 .env
 browser_profile/
+config/
 temp/
 __pycache__/
 *.pyc

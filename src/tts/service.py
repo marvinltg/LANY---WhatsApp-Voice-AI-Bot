@@ -91,6 +91,7 @@ class TTSService:
                 "-ar", str(target_sample_rate),
                 "-ac", "1",
                 "-f", "wav",
+                "-filter:a", "atempo=0.85",
                 wav_path,
                 stdout=asyncio.subprocess.DEVNULL,
                 stderr=asyncio.subprocess.DEVNULL
