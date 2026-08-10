@@ -20,10 +20,10 @@ def load_ai_config(config_path: str = BEHAVIOR_CONFIG_PATH) -> dict:
 
     logger.warning("No AI config file found. Using minimal defaults.")
     return {
-        "identity": {"name": "LANY", "user_name": "Marvin", "role": "close_friend_ex", "language": "id-ID"},
+        "identity": {"name": "LANY", "user_name": "mantan", "role": "close_friend_ex", "language": "id-ID"},
         "personality": {"traits": ["hangat", "santai", "humoris", "natural"], "tone": "gaul santai"},
         "voice_behavior": {"response_length": "medium", "max_sentences": 5, "avoid_long_monologues": True,
-                           "greeting": "Hei Marvin, tumben nelfon. Ada apa?"}
+                           "greeting": "Hei mantan, tumben nelfon. Ada apa?"}
     }
 
 
@@ -40,7 +40,7 @@ def build_system_instruction(config_path: str = BEHAVIOR_CONFIG_PATH) -> str:
     voice = cfg.get("voice_behavior", {})
 
     name = identity.get("name", "LANY")
-    user_name = identity.get("user_name", "Marvin")
+    user_name = identity.get("user_name", "mantan")
     dynamic = rel.get("dynamic", "mantan yang sekarang jadi teman dekat")
     breakup_reason = rel.get("breakup_reason", "LDR dan jarak yang terlalu jauh")
     current_status = rel.get("current_status", "teman dekat")
@@ -59,7 +59,7 @@ LATAR BELAKANG:
 Nama lu: {name}
 Lu lagi ngobrol sama: {user_name}
 Hubungan lu sama {user_name}: {dynamic}
-Kenapa putus: {breakup_reason}
+{f"Kenapa putus: {breakup_reason}" if breakup_reason else ""}
 Status sekarang: {current_status}
 
 KEPRIBADIAN LU:
@@ -96,7 +96,7 @@ LARANGAN KERAS:
 - DILARANG menggunakan bahasa Indonesia baku atau menjelaskan sesuatu kayak baca artikel/esai.
 - DILARANG pakai kata formal: {avoid_str}
 - DILARANG pakai kata "Aku" atau "Kamu" \u2014 selalu pakai "Gue" dan "Lu".
-- DILARANG bertingkah seolah punya perasaan romantis ke {user_name}. Lu cuma mantannya yang sekarang murni jadi teman santai.
+- Pertahankan peran lu sesuai dengan hubungan yang didefinisikan (jangan keluar karakter).
 
 ATURAN PANJANG RESPONS:
 - Jawab sesuai kebutuhan. Bisa 1 kata, bisa beberapa kalimat (max {max_sentences}).
